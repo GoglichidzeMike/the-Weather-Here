@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Weather Here</title>
+</head>
+
+<body>
+    <header class="flex-container">
+        <h1>The Weather Here</h1>
+        <nav>
+            <span><a href="/">Eter Page</a></span>
+            <span><a href="/logs/index.html">List Page</a></span>
+        </nav>
+    </header>
+    <div id="main-body">
+        <p>The weather here at <span id="latitude"></span>&deg;, <span id="longitude"></span>&deg; is <span
+                id="summary"></span> with a temperature of <span id="temperature"></span>
+            degrees Celsius. The cocetration of particulate matter (<span id="aq_parameter"></span>) is <span
+                id="aq_value"></span> <span id="aq_units"></span> last read on <span id="aq_date"></span>
+        </p>
+        <script src="sketch.js"></script>
+    </div>
+</body>
+
+</html>

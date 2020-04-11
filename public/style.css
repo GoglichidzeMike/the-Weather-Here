@@ -1,0 +1,62 @@
+p {
+    padding: 10px;
+    background-color: teal;
+}
+
+#checkinMap {
+  height: 720px;
+  width: 720px;
+  margin: 8px 0px;
+}
+
+header {
+    width: 100%;
+    /* position: fixed; */
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  nav {
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 10px;
+  }
+  
+  nav span {
+    display: inline-block;
+    padding: 20px 10px;
+  }
+
+  a {
+    color: seashell;
+  }
+
+  body {
+    margin: 0;
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 10px;
+  }
+
+  #main-body {
+      padding-top: 70px;
+      margin: auto;
+      width: 70%;
+  }
